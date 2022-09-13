@@ -11,6 +11,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.toggleMenu').click(function(){
+                $('ul').toggleClass('show')
+            });
+        });
+    </script>
     <title>Smile Foundations</title>
 </head>
 
@@ -18,15 +26,6 @@
     <section>
         <header>
             <a href="#" class="logo">Smile Foundations</a>
-            <!-- <div class="toggleMenu" onclick="toggleMenu()">
-                <ul class="navigation">
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="support.html">Support</a></li>
-                    <li><a href="#contact-us">Contact Us</a></li>
-                    <li><a href="./donate.html" class="donate">Donate</a></li>
-                </ul>
-            </div> -->
             <a href="#" class="toggleMenu">
                 <span class="bar"></span>
                 <span class="bar"></span>
