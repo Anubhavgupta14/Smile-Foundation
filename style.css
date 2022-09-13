@@ -50,7 +50,7 @@
   a {
     font-size: 20px;
     display: inline-block;
-    color: #fff;
+    color: white;
     margin-right: 30px;
     text-decoration: none;
   }
@@ -340,6 +340,21 @@
       letter-spacing: 1px;
       padding: 0px;
     }
+    a {
+      font-size: 20px;
+      display: inline-block;
+      color: black;
+      margin-right: 30px;
+      text-decoration: none;
+    }
+    .content .contentBx a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: white;
+      border-radius: 3px;
+      color: rgb(0, 0, 0);
+      font-weight: 500;
+    }
     section {
     position: relative;
     width: 110%;
@@ -376,7 +391,7 @@
   
       flex-direction: column;
       align-items: center;
-      line-height: 30px;
+      line-height: 28px;
     }
     header .navigation {
       position: relative;
@@ -401,7 +416,7 @@
       position: fixed;
       width: 100%;
       height: 100vh;
-      background: #2f3640;
+      background: white;
       top: 80px;
       left: -100%;
       text-align: center;
