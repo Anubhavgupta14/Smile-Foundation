@@ -17,8 +17,6 @@ body{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
-      url("img/new.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -184,7 +182,7 @@ body{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
-      url("img/7.jpeg");
+      url("./img/close-up-girl-child-friends-park-smiling-camera.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -223,11 +221,10 @@ body{
   .container-el {
     color: rgb(255, 255, 255);
     border-radius: 5px;
-    background: linear-gradient(rgba(51, 51, 51, 0.9), rgba(92, 213, 230, 0.1)),
-      #686868;
-    padding: 10px;
+    background: rgb(0, 0, 0, 0.6);
+    padding: 128px;
     margin: 0 auto;
-    width: 100%;
+    width: 50%;
   }
   /* Footer Css */
   footer {
@@ -245,8 +242,6 @@ body{
       position: relative;
       width: 110%;
       min-height: 110vh;
-      background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
-        url("img/new.jpg");
       background-size: cover;
       background-position: center;
       display: flex;
@@ -261,7 +256,7 @@ body{
         width: 110%;
         min-height: 100vh;
         background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
-          url("img/7.jpeg");
+          url("./img/close-up-girl-child-friends-park-smiling-camera.jpg");
         background-size: cover;
         background-position: center;
         display: flex;
@@ -436,13 +431,12 @@ body{
     header ul.show{
       left: 0;
     }
-    /* .container-el {
+    .container-el {
       color: rgb(255, 255, 255);
-    border-radius: 5px;
-    background: linear-gradient(rgba(51, 51, 51, 0.9), rgba(92, 213, 230, 0.1)),
-      #686868;
-    padding: 10px;
-    margin: 0 auto;
-    width: 40%;
-    } */
+      border-radius: 5px;
+      background: rgb(0, 0, 0, 0.6);
+      padding: 10px;
+      margin: 0 auto;
+      width: 100%;
+    }
   }
